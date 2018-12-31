@@ -20,7 +20,7 @@ plt.scatter(X[y_means == 2, 0], X[y_means == 2, 1], s = 100, c = 'green', label 
 
 # Visualizing the Clusters, with EdgeColor on: 
 plt.scatter(X[y_means == 0, 0], X[y_means == 0, 1], s = 100, c = 'red', edgecolor = 'blue', label = 'Group 1')
-plt.scatter(X[y_means == 1, 0], X[y_means == 1, 1], s = 100, c = 'blue', edgecolor = 'slate', label = 'Group 2')
+plt.scatter(X[y_means == 1, 0], X[y_means == 1, 1], s = 100, c = 'blue', edgecolor = 'black', label = 'Group 2')
 plt.scatter(X[y_means == 2, 0], X[y_means == 2, 1], s = 100, c = 'green', edgecolor = 'black', label = 'Group 3')
 ''' The edge color makes the 2D graph much more visually appealing.'''
 

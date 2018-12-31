@@ -16,12 +16,16 @@ labels = km.labels_
 plt.scatter(X[y_means == 0, 0], X[y_means == 0, 1], s = 100, c = 'red', label = 'Group 1')
 plt.scatter(X[y_means == 1, 0], X[y_means == 1, 1], s = 100, c = 'blue', label = 'Group 2')
 plt.scatter(X[y_means == 2, 0], X[y_means == 2, 1], s = 100, c = 'green', label = 'Group 3')
+plt.legend()
+plt.show()
 ''' This is the normal way to do it. Regular ole 2D Scatter Plotting.'''
 
 # Visualizing the Clusters, with EdgeColor on: 
 plt.scatter(X[y_means == 0, 0], X[y_means == 0, 1], s = 100, c = 'red', edgecolor = 'blue', label = 'Group 1')
 plt.scatter(X[y_means == 1, 0], X[y_means == 1, 1], s = 100, c = 'blue', edgecolor = 'black', label = 'Group 2')
 plt.scatter(X[y_means == 2, 0], X[y_means == 2, 1], s = 100, c = 'green', edgecolor = 'black', label = 'Group 3')
+plt.legend()
+plt.show()
 ''' The edge color makes the 2D graph much more visually appealing.'''
 
 #Plotting 3D - The sweet new way I found to represent data. (K-Means is applied to the 3D space)

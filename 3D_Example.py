@@ -34,3 +34,4 @@ ax.set_ylabel("Sepal length")
 ax.set_zlabel("Petal length")
 plt.title("K Means", fontsize=14)
 plt.show()
+'''If you run this in your IDE or CL it will create an interactive 3D graph.'''
